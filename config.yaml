@@ -11,29 +11,29 @@
 carpentry: 'incubator'
 
 # Overall title for pages.
-title: 'Lesson Title' # FIXME
+title: 'Statistical Comparisons using R'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ # FIXME
+created:
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries' # FIXME
+keywords: 'software, data, lesson, statistics, hypothesis testing, t-test, correlation, ANOVA, Chi-square'
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'pre-alpha' # FIXME
+life_cycle: 'beta'
 
-# License of the lesson
-license: 'CC-BY 4.0'
+# License of the lesson materials (recommended CC-BY 4.0)
+license: 'See licence file'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-md' # FIXME
+source: 'https://github.com/marklcrowe/Statistical_Comparisons_using_R'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org' # FIXME
+contact: 'training@qcif.edu.au'
 
 # Navigation ------------------------------------------------
 #
@@ -58,17 +58,23 @@ contact: 'team@carpentries.org' # FIXME
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
-- introduction.md
+episodes:
+- 01-hypothesis-testing.Rmd
+- 02-preparation-of-data.Rmd
+- 03-correlation.Rmd
+- 04-categorical-variables.Rmd
+- 05-continuous-variables.Rmd
+- 06-anova.Rmd
+- 07-multiple-testing.Rmd
 
 # Information for Learners
-learners: 
+learners:
 
 # Information for Instructors
-instructors: 
+instructors:
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #

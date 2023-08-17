@@ -2,8 +2,6 @@
 site: sandpaper::sandpaper_site
 ---
 
-This is a new lesson built with [The Carpentries Workbench][workbench]. 
-
-
-[workbench]: https://carpentries.github.io/sandpaper-docs
-
+Welcome to QCIF's "Statistical Comparisons using R" workshop. Please follow the 
+instructions below carefully to get properly set up before embarking on the rest
+of the workshop.
