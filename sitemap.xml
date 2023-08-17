@@ -1,45 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/404.html</loc>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/01-hypothesis-testing.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/CODE_OF_CONDUCT.html</loc>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/02-preparation-of-data.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/LICENSE.html</loc>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/03-correlation.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/index.html</loc>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/04-categorical-variables.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/404.html</loc>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/05-continuous-variables.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/CODE_OF_CONDUCT.html</loc>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/06-anova.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/LICENSE.html</loc>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/07-multiple-testing.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/index.html</loc>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/404.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/introduction.html</loc>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/profiles.html</loc>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/reference.html</loc>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/aio.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/introduction.html</loc>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/images.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/profiles.html</loc>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/index.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/reference.html</loc>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/01-hypothesis-testing.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/02-preparation-of-data.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/03-correlation.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/04-categorical-variables.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/05-continuous-variables.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/06-anova.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/07-multiple-testing.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/404.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/CODE_OF_CONDUCT.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/LICENSE.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/aio.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/images.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://marklcrowe.github.io/Statistical_Comparisons_using_R/reference.html</loc>
   </url>
 </urlset>
