@@ -16,26 +16,6 @@ exercises: 45
 
 
 
-## Testing bold, italic
-
-1. This is bold with markdown **bold**
-2. This is bold with html <b>bold</b>
-3. This is strong with html <strong>strong</strong>
-4. This is italic with markdown *italic*
-5. This is italic with html <i>italic</i>
-6. This is emphasised with html <em>emphasis</em>
-7. This is bold italic with markdown ***bold italic***
-8. This is bold italic with html <b><i>bold italic</i></b>
-9. This is italic bold with html <i><b>italic bold</b></i>
-10. This is strong italic with html <strong><i>strong italic</i></strong>
-11. This is italic strong with html <i><strong>italic strong</strong></i>
-12. This is strong emphasis with html <strong><em>strong emphasis</em></strong>
-13. This is emphasis strong with html <em><strong>emphasis strong</strong></em>
-14. This is bold emphasis with html <b><em>bold emphasis</em></b>
-15. This is emphasis bold with html <em><b>emphasis bold</b></em>
-
-
-
 ## Multiple testing
 In ANOVA, if H<sub>0</sub> is rejected, we carry out a _post hoc_ test to 
 identify which group(s) are significantly different from the other ones. If 
