@@ -292,7 +292,7 @@ sessionInfo()
 ```
 
 ```{.output}
-R version 4.3.1 (2023-06-16)
+R version 4.3.2 (2023-10-31)
 Platform: x86_64-pc-linux-gnu (64-bit)
 Running under: Ubuntu 22.04.3 LTS
 
@@ -317,13 +317,13 @@ other attached packages:
 
 loaded via a namespace (and not attached):
  [1] vctrs_0.6.3       cli_3.6.1         knitr_1.43        rlang_1.1.1      
- [5] xfun_0.40         gdata_2.19.0      generics_0.1.3    renv_1.0.2       
+ [5] xfun_0.40         gdata_2.19.0      generics_0.1.3    renv_1.0.3       
  [9] gtools_3.9.4      glue_1.6.2        colorspace_2.1-0  scales_1.2.1     
-[13] fansi_1.0.4       grid_4.3.1        evaluate_0.21     munsell_0.5.0    
+[13] fansi_1.0.4       grid_4.3.2        evaluate_0.21     munsell_0.5.0    
 [17] tibble_3.2.1      MASS_7.3-60       yaml_2.3.7        lifecycle_1.0.3  
-[21] compiler_4.3.1    dplyr_1.1.2       pkgconfig_2.0.3   rstudioapi_0.15.0
+[21] compiler_4.3.2    dplyr_1.1.2       pkgconfig_2.0.3   rstudioapi_0.15.0
 [25] R6_2.5.1          tidyselect_1.2.0  utf8_1.2.3        pillar_1.9.0     
-[29] magrittr_2.0.3    withr_2.5.0       tools_4.3.1       gtable_0.3.3     
+[29] magrittr_2.0.3    withr_2.5.0       tools_4.3.2       gtable_0.3.3     
 ```
 
 :::::::::::::::: keypoints
