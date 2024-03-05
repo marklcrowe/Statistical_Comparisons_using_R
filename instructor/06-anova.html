@@ -329,7 +329,8 @@ the others, we need to use other tests. As with two-sample testing, the
 appropriate test is determined in large part by whether the data in each
 group is normally distributed, and whether the data is paired, as
 outlined in the figure below.</p>
-<figure><img src="../fig/06-fig1.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><div id="challenge-1" class="callout challenge">
+<figure><img src="../fig/06-fig1.png" alt="RStudio layout" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><div id="challenge-1" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
@@ -348,7 +349,7 @@ distributed</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Solution to Challenge 1</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>We can use the <code>shapiro.test</code> function to test for
 normality - or rather, to test the alternative hypothesis that the data
@@ -388,7 +389,8 @@ H<sub>1</sub>: µ<sub>1</sub> ≠ µ<sub>2</sub> OR µ<sub>1</sub> ≠
 <strong>F-test</strong>, and is based around decomposing the total
 variation in the sample into the variability (sum of squares) within
 groups and between groups</p>
-<figure><img src="../fig/06-fig2.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure></section><section id="anova-one-way-example"><h2 class="section-heading">ANOVA one-way example<a class="anchor" aria-label="anchor" href="#anova-one-way-example"></a>
+<figure><img src="../fig/06-fig2.png" alt="RStudio layout" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure></section><section id="anova-one-way-example"><h2 class="section-heading">ANOVA one-way example<a class="anchor" aria-label="anchor" href="#anova-one-way-example"></a>
 </h2>
 <hr class="half-width"><p>In our example dataset, the alcohol consumption field has three
 categories. We will test if there is any effect on weight associated
@@ -473,7 +475,8 @@ Kruskal-Wallis chi-squared = 0.89142, df = 2, p-value = 0.6404</code></pre>
 <pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu">boxplot</span><span class="op">(</span><span class="va">gallstones</span><span class="op">$</span><span class="va">Weight</span> <span class="op">~</span> <span class="va">gallstones</span><span class="op">$</span><span class="va">Alcohol.Consumption</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="../fig/06-fig3.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><p>We can see that with a p-value of 0.64, we reject the alternative
+<figure><img src="../fig/06-fig3.png" alt="RStudio layout" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><p>We can see that with a p-value of 0.64, we reject the alternative
 hypothesis and concluded that in this data set, there is no evidence for
 a difference in patient weight associated with their level of alcohol
 consumption. This is consistent with the plot, which doesn’t show any
@@ -582,7 +585,7 @@ Does this show a significant difference as you might expect?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Solution to Challenge 2</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb17">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -620,7 +623,7 @@ Tukey’s test</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Solution to Challenge 3</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb18">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -721,7 +724,8 @@ whether males and female patients respond differently.</p>
   Male         6      6</code></pre>
 </div>
 <p>This corresponds to this design:</p>
-<figure><img src="../fig/06-fig4.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><p>As usual, an early step in studying our data is to visualise it</p>
+<figure><img src="../fig/06-fig4.png" alt="RStudio layout" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><p>As usual, an early step in studying our data is to visualise it</p>
 <div class="codewrapper sourceCode" id="cb27">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
@@ -731,7 +735,8 @@ whether males and female patients respond differently.</p>
 <span><span class="fu">plot</span><span class="op">(</span><span class="va">Score</span> <span class="op">~</span> <span class="va">Treatment</span> <span class="op">+</span> <span class="va">Gender</span>, data <span class="op">=</span> <span class="va">happiness</span><span class="op">)</span></span>
 <span><span class="fu">par</span><span class="op">(</span>mfrow<span class="op">=</span><span class="fu">c</span><span class="op">(</span><span class="fl">1</span>,<span class="fl">1</span><span class="op">)</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="../fig/06-fig5.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><div class="codewrapper sourceCode" id="cb28">
+<figure><img src="../fig/06-fig5.png" alt="RStudio layout" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><div class="codewrapper sourceCode" id="cb28">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="downlit sourceCode r">
@@ -739,7 +744,8 @@ whether males and female patients respond differently.</p>
 <span><span class="fu">ggplot</span><span class="op">(</span>data <span class="op">=</span> <span class="va">happiness</span>, <span class="fu">aes</span><span class="op">(</span>x <span class="op">=</span> <span class="va">Treatment</span>, y <span class="op">=</span> <span class="va">Score</span>, fill <span class="op">=</span> <span class="va">Gender</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu">geom_boxplot</span><span class="op">(</span>position <span class="op">=</span> <span class="fu">position_dodge</span><span class="op">(</span><span class="op">)</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="../fig/06-fig6.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><p>Judging by the boxplots, there appears to be a difference in
+<figure><img src="../fig/06-fig6.png" alt="RStudio layout" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><p>Judging by the boxplots, there appears to be a difference in
 happiness score for the different treatment drugs (score higher with
 treatment than placebo). However, the difference is less pronounced
 between the gender groups.</p>
@@ -754,7 +760,8 @@ females may not have a different response between the two. Or <em>vice
 versa</em>. The diagram below shows examples of (left) where both main
 effects have a difference but there is no interaction and (right) where
 there is a strong interaction but little main effect.</li>
-</ul><figure><img src="../fig/06-fig7.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><p>Interaction plots can be made in R using the
+</ul><figure><img src="../fig/06-fig7.png" alt="RStudio layout" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><p>Interaction plots can be made in R using the
 <code>interaction.plot</code> command. Note the order of factors -
 switching these alters which variable is plotted on the x-axis.</p>
 <div class="codewrapper sourceCode" id="cb29">
@@ -764,7 +771,8 @@ switching these alters which variable is plotted on the x-axis.</p>
 <code class="sourceCode R"><span><span class="fu">interaction.plot</span><span class="op">(</span><span class="va">happiness</span><span class="op">$</span><span class="va">Treatment</span>, <span class="va">happiness</span><span class="op">$</span><span class="va">Gender</span>, <span class="va">happiness</span><span class="op">$</span><span class="va">Score</span>,</span>
 <span>                 col<span class="op">=</span><span class="fl">2</span><span class="op">:</span><span class="fl">3</span>, lwd<span class="op">=</span><span class="fl">3</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="../fig/06-fig8.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><p>The interaction plot seems to show that there is a strong interaction
+<figure><img src="../fig/06-fig8.png" alt="RStudio layout" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><p>The interaction plot seems to show that there is a strong interaction
 effect between Treatment and Gender on happiness score, but to confirm
 that we can fit a two-way ANOVA with an interaction term.</p>
 <div class="codewrapper sourceCode" id="cb30">
@@ -885,7 +893,8 @@ plots</p>
 <code class="sourceCode R"><span><span class="fu">par</span><span class="op">(</span>mfrow<span class="op">=</span><span class="fu">c</span><span class="op">(</span><span class="fl">2</span>,<span class="fl">2</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="fu">plot</span><span class="op">(</span><span class="va">result</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="../fig/06-fig9.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><div class="section level4">
+<figure><img src="../fig/06-fig9.png" alt="RStudio layout" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><div class="section level4">
 <h4 id="characteristics-of-a-well-behaved-residual-vs--fits-plot">Characteristics of a well-behaved residual vs. fits plot<a class="anchor" aria-label="anchor" href="#characteristics-of-a-well-behaved-residual-vs--fits-plot"></a></h4>
 <ol style="list-style-type: decimal"><li>The residuals “bounce randomly” around the 0 line. This suggests
 that the assumption that the relationship is linear is reasonable.</li>
@@ -957,7 +966,7 @@ would mean it should be analysed using a paired data technique?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4">Solution to Challenge 4</h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <p>One option would be that if, rather than testing on 24 individuals
 assigned randomly to placebo/treatment groups, the trial was instead
@@ -1054,7 +1063,7 @@ any links that you are not going to use.
   "identifier": "https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/06-anova.html",
   "dateCreated": "2023-08-29",
   "dateModified": "2023-11-21",
-  "datePublished": "2024-02-27"
+  "datePublished": "2024-03-05"
 }
 
   </script><script>

@@ -370,7 +370,8 @@ decrease in the other</li>
 <li>
 <em>non-linear</em>: as one variable increases, the other changes
 but not in a consistant way</li>
-</ul><figure><img src="fig/03-fig1.png" alt="Plots showing positive and negative correlation, no correlation, and non-linear correlation.  The first graph - positive correlation - shows point trending from the bottom left to the top right of the graph.  The second graph - negative correlation - shows points trending from the top left to the bottom right.  he no correlation graph has points scattered across the graph, and the non-linear correlation graph  has points forming an inverted V-shape pattern" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure></section><section id="previewing-relationships-with-scatter-plots"><h2 class="section-heading">Previewing relationships with scatter plots<a class="anchor" aria-label="anchor" href="#previewing-relationships-with-scatter-plots"></a>
+</ul><figure><img src="fig/03-fig1.png" alt="Plots showing positive and negative correlation, no correlation, and non-linear correlation. The first graph - positive correlation - shows point trending from the bottom left to the top right of the graph. The second graph - negative correlation - shows points trending from the top left to the bottom right. he no correlation graph has points scattered across the graph, and the non-linear correlation graph has points forming an inverted V-shape pattern" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure></section><section id="previewing-relationships-with-scatter-plots"><h2 class="section-heading">Previewing relationships with scatter plots<a class="anchor" aria-label="anchor" href="#previewing-relationships-with-scatter-plots"></a>
 </h2>
 <hr class="half-width"><p>The gallstones dataset contains a number of continuous variables. The
 first step in studying potential relationships between these is to
@@ -385,7 +386,8 @@ examine them using scatter plots</p>
 <span>     cex.lab<span class="op">=</span><span class="fl">0.8</span>, cex.main<span class="op">=</span><span class="fl">1</span>,pch<span class="op">=</span><span class="fl">1</span>, <span class="co"># Set some plot formatting</span></span>
 <span>     main<span class="op">=</span><span class="st">"Scatter-plot of weight against height"</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="fig/03-fig2.png" alt="Scatter plot of weight against height.  There is a broad distribution of points, but with a general trend towards positive correlation. The points trend from the bottom left (low height, low weight) to the top right (high height, high weight)" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><p>From this graph, there appears to be a correlation between height and
+<figure><img src="fig/03-fig2.png" alt="Scatter plot of weight against height. There is a broad distribution of points, but with a general trend towards positive correlation. The points trend from the bottom left (low height, low weight) to the top right (high height, high weight)" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><p>From this graph, there appears to be a correlation between height and
 weight. We can look at this further using ggplot, which provides the
 <code>geom_smooth</code> function with which you can add a line showing
 the best correlation estimate</p>
@@ -400,7 +402,8 @@ the best correlation estimate</p>
 <span>  <span class="fu">theme</span><span class="op">(</span>axis.text <span class="op">=</span> <span class="fu">element_text</span><span class="op">(</span>size <span class="op">=</span> <span class="fl">12</span><span class="op">)</span>,</span>
 <span>        axis.title <span class="op">=</span> <span class="fu">element_text</span><span class="op">(</span>size <span class="op">=</span> <span class="fl">14</span>, face <span class="op">=</span> <span class="st">"bold"</span><span class="op">)</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="fig/03-fig3.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><div id="challenge-2" class="callout challenge">
+<figure><img src="fig/03-fig3.png" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><div id="challenge-2" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
@@ -427,13 +430,12 @@ two of these to see if they show signs of correlation</p>
 increased BMI. Height is, as we’ve seen, correlated with weight but much
 less so with BMI. Age does not seem to be correlated with any of the
 other three variables.</p>
-<div id="tip" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="tip" class="callout-inner">
-<h3 class="callout-title">Tip<a class="anchor" aria-label="anchor" href="#tip"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="tip">Tip<a class="anchor" aria-label="anchor" href="#tip"></a></h3>
 <div class="callout-content">
 <p>You can use <code>for</code> loops as a quick and dirty way of
 plotting all pairwise comparisons at once</p>
@@ -495,13 +497,12 @@ association between the variables.</p>
 </tr><tr class="odd"><td>
 <em>r</em> = 0.7</td>
 <td>Strong relationship</td>
-</tr></tbody></table><div id="tip-1" class="callout callout">
+</tr></tbody></table><div id="callout2" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="tip-1" class="callout-inner">
-<h3 class="callout-title">Tip<a class="anchor" aria-label="anchor" href="#tip-1"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="tip-1">Tip<a class="anchor" aria-label="anchor" href="#tip-1"></a></h3>
 <div class="callout-content">
 <p>p-values should never be reported for correlations in publications;
 always report the r or r<sup>2</sup> instead. Because of the nature of
@@ -511,13 +512,13 @@ other tests.</p>
 </div>
 </div>
 </div>
-<figure><img src="fig/03-fig4.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><div id="tip-coefficient-of-determination" class="callout callout">
+<figure><img src="fig/03-fig4.png" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><div id="callout3" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="tip-coefficient-of-determination" class="callout-inner">
-<h3 class="callout-title">Tip: Coefficient of determination<a class="anchor" aria-label="anchor" href="#tip-coefficient-of-determination"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="tip-coefficient-of-determination">Tip: Coefficient of determination<a class="anchor" aria-label="anchor" href="#tip-coefficient-of-determination"></a></h3>
 <div class="callout-content">
 <p>Pearson’s <em><strong>r</strong></em> can be squared,
 <em><strong>r<sup>2</sup></strong></em>, to derive a coefficient of
@@ -539,13 +540,15 @@ these variables.</p>
 <code class="sourceCode R"><span><span class="co"># First, test if the variables are normally distributed</span></span>
 <span><span class="fu">hist</span><span class="op">(</span><span class="va">gallstones</span><span class="op">$</span><span class="va">Height</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="fig/03-fig5.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><div class="codewrapper sourceCode" id="cb5">
+<figure><img src="fig/03-fig5.png" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><div class="codewrapper sourceCode" id="cb5">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu">hist</span><span class="op">(</span><span class="va">gallstones</span><span class="op">$</span><span class="va">Weight</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="fig/03-fig6.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><div class="codewrapper sourceCode" id="cb6">
+<figure><img src="fig/03-fig6.png" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><div class="codewrapper sourceCode" id="cb6">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="downlit sourceCode r">
@@ -770,7 +773,7 @@ any links that you are not going to use.
   "identifier": "https://marklcrowe.github.io/Statistical_Comparisons_using_R/03-correlation.html",
   "dateCreated": "2023-08-29",
   "dateModified": "2023-11-21",
-  "datePublished": "2024-02-27"
+  "datePublished": "2024-03-05"
 }
 
   </script><script>

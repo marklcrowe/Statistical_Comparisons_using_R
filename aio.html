@@ -372,12 +372,12 @@ specific statement that we are looking to disprove with our data, and an
 “alternative hypothesis” (H<sub>1</sub>), which is a statement opposing
 H<sub>0</sub> and which we will only accept if the data and analysis is
 sufficiently convincing.</p>
-<div id="tip-defining-your-alternative-hypothesis" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="tip-defining-your-alternative-hypothesis" class="callout-inner">
-<h3 class="callout-title">Tip: Defining your alternative hypothesis<a class="anchor" aria-label="anchor" href="#tip-defining-your-alternative-hypothesis"></a>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="tip-defining-your-alternative-hypothesis">Tip: Defining your alternative hypothesis<a class="anchor" aria-label="anchor" href="#tip-defining-your-alternative-hypothesis"></a>
 </h3>
 <div class="callout-content">
 <p>The alternative hypothesis must cover all options not included in the
@@ -559,7 +559,8 @@ error), or failing to reject the null hypothesis when it is false (a
 type II error). The probability of a type 1 error is given by the
 p-value; it is possible to calculate the probability of a type II error,
 but we will not cover that in this course.</p>
-<figure><img src="fig/01-fig1.png" alt="Table of hypothesis testing error types.  Rejecting the null hypothesis when it is true is a Type 1 error.  Failing to reject the null hypothesis when it is false is a type 2 error" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><div id="keypoints1" class="callout keypoints">
+<figure><img src="fig/01-fig1.png" alt="Table of hypothesis testing error types. Rejecting the null hypothesis when it is true is a Type 1 error. Failing to reject the null hypothesis when it is false is a type 2 error" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
 </div>
@@ -661,7 +662,7 @@ the dataset?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Solution to challenge 1</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>The field contents are as follows:</p>
 <ul>
@@ -697,12 +698,12 @@ treatment: 0=untreated, 1=treated;</li>
 how best to upload it into R. In this case, we have a tabular layout
 with fields separated by commas - a CSV file - so we will use the
 <code>read.csv</code> function to import this dataset.</p>
-<div id="tip" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="tip" class="callout-inner">
-<h3 class="callout-title">Tip<a class="anchor" aria-label="anchor" href="#tip"></a>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="tip">Tip<a class="anchor" aria-label="anchor" href="#tip"></a>
 </h3>
 <div class="callout-content">
 <p>When reading in tabular data in R, you can use either
@@ -837,12 +838,12 @@ character strings.</p>
 </h3>
 <pre class="output" tabindex="0"><code> chr [1:37] "P25" "P28" "P17" "P27" "P5" "P6" "P7" "P26" "P34" "P36" "P11" ...</code></pre>
 </div>
-<div id="tip-1" class="callout callout">
+<div id="callout2" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="tip-1" class="callout-inner">
-<h3 class="callout-title">Tip<a class="anchor" aria-label="anchor" href="#tip-1"></a>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="tip-1">Tip<a class="anchor" aria-label="anchor" href="#tip-1"></a>
 </h3>
 <div class="callout-content">
 <p>Sometimes patient ID is numeric and ordered according to recruitment.
@@ -870,7 +871,7 @@ place? What other issues might this have caused?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Solution to challenge 2</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>You could use the <code>stringsAsFactors = FALSE</code> argument to
 <code>read.csv</code>. But this would mean that Gender was also read in
@@ -1002,7 +1003,8 @@ decrease in the other</li>
 <em>non-linear</em>: as one variable increases, the other changes
 but not in a consistant way</li>
 </ul>
-<figure><img src="fig/03-fig1.png" alt="Plots showing positive and negative correlation, no correlation, and non-linear correlation.  The first graph - positive correlation - shows point trending from the bottom left to the top right of the graph.  The second graph - negative correlation - shows points trending from the top left to the bottom right.  he no correlation graph has points scattered across the graph, and the non-linear correlation graph  has points forming an inverted V-shape pattern" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure></section><section id="previewing-relationships-with-scatter-plots"><h2 class="section-heading">Previewing relationships with scatter plots<a class="anchor" aria-label="anchor" href="#previewing-relationships-with-scatter-plots"></a>
+<figure><img src="fig/03-fig1.png" alt="Plots showing positive and negative correlation, no correlation, and non-linear correlation. The first graph - positive correlation - shows point trending from the bottom left to the top right of the graph. The second graph - negative correlation - shows points trending from the top left to the bottom right. he no correlation graph has points scattered across the graph, and the non-linear correlation graph has points forming an inverted V-shape pattern" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure></section><section id="previewing-relationships-with-scatter-plots"><h2 class="section-heading">Previewing relationships with scatter plots<a class="anchor" aria-label="anchor" href="#previewing-relationships-with-scatter-plots"></a>
 </h2>
 <hr class="half-width">
 <p>The gallstones dataset contains a number of continuous variables. The
@@ -1018,7 +1020,8 @@ examine them using scatter plots</p>
 <span>     cex.lab<span class="op">=</span><span class="fl">0.8</span>, cex.main<span class="op">=</span><span class="fl">1</span>,pch<span class="op">=</span><span class="fl">1</span>, <span class="co"># Set some plot formatting</span></span>
 <span>     main<span class="op">=</span><span class="st">"Scatter-plot of weight against height"</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="fig/03-fig2.png" alt="Scatter plot of weight against height.  There is a broad distribution of points, but with a general trend towards positive correlation. The points trend from the bottom left (low height, low weight) to the top right (high height, high weight)" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><p>From this graph, there appears to be a correlation between height and
+<figure><img src="fig/03-fig2.png" alt="Scatter plot of weight against height. There is a broad distribution of points, but with a general trend towards positive correlation. The points trend from the bottom left (low height, low weight) to the top right (high height, high weight)" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><p>From this graph, there appears to be a correlation between height and
 weight. We can look at this further using ggplot, which provides the
 <code>geom_smooth</code> function with which you can add a line showing
 the best correlation estimate</p>
@@ -1033,7 +1036,8 @@ the best correlation estimate</p>
 <span>  <span class="fu">theme</span><span class="op">(</span>axis.text <span class="op">=</span> <span class="fu">element_text</span><span class="op">(</span>size <span class="op">=</span> <span class="fl">12</span><span class="op">)</span>,</span>
 <span>        axis.title <span class="op">=</span> <span class="fu">element_text</span><span class="op">(</span>size <span class="op">=</span> <span class="fl">14</span>, face <span class="op">=</span> <span class="st">"bold"</span><span class="op">)</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="fig/03-fig3.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><div id="challenge-2" class="callout challenge">
+<figure><img src="fig/03-fig3.png" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><div id="challenge-2" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
@@ -1060,12 +1064,12 @@ two of these to see if they show signs of correlation</p>
 increased BMI. Height is, as we’ve seen, correlated with weight but much
 less so with BMI. Age does not seem to be correlated with any of the
 other three variables.</p>
-<div id="tip" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="tip" class="callout-inner">
-<h3 class="callout-title">Tip<a class="anchor" aria-label="anchor" href="#tip"></a>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="tip">Tip<a class="anchor" aria-label="anchor" href="#tip"></a>
 </h3>
 <div class="callout-content">
 <p>You can use <code>for</code> loops as a quick and dirty way of
@@ -1143,12 +1147,12 @@ association between the variables.</p>
 <td>Strong relationship</td>
 </tr>
 </tbody></table>
-<div id="tip-1" class="callout callout">
+<div id="callout2" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="tip-1" class="callout-inner">
-<h3 class="callout-title">Tip<a class="anchor" aria-label="anchor" href="#tip-1"></a>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="tip-1">Tip<a class="anchor" aria-label="anchor" href="#tip-1"></a>
 </h3>
 <div class="callout-content">
 <p>p-values should never be reported for correlations in publications;
@@ -1159,12 +1163,13 @@ other tests.</p>
 </div>
 </div>
 </div>
-<figure><img src="fig/03-fig4.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><div id="tip-coefficient-of-determination" class="callout callout">
+<figure><img src="fig/03-fig4.png" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><div id="callout3" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="tip-coefficient-of-determination" class="callout-inner">
-<h3 class="callout-title">Tip: Coefficient of determination<a class="anchor" aria-label="anchor" href="#tip-coefficient-of-determination"></a>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="tip-coefficient-of-determination">Tip: Coefficient of determination<a class="anchor" aria-label="anchor" href="#tip-coefficient-of-determination"></a>
 </h3>
 <div class="callout-content">
 <p>Pearson’s <em><strong>r</strong></em> can be squared,
@@ -1187,13 +1192,15 @@ these variables.</p>
 <code class="sourceCode R"><span><span class="co"># First, test if the variables are normally distributed</span></span>
 <span><span class="fu">hist</span><span class="op">(</span><span class="va">gallstones</span><span class="op">$</span><span class="va">Height</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="fig/03-fig5.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><div class="codewrapper sourceCode" id="cb5">
+<figure><img src="fig/03-fig5.png" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><div class="codewrapper sourceCode" id="cb5">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu">hist</span><span class="op">(</span><span class="va">gallstones</span><span class="op">$</span><span class="va">Weight</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="fig/03-fig6.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><div class="codewrapper sourceCode" id="cb6">
+<figure><img src="fig/03-fig6.png" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><div class="codewrapper sourceCode" id="cb6">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="downlit sourceCode r">
@@ -1445,7 +1452,7 @@ does it contain?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Solution to Challenge 1</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>There are seven categorical fields in this dataset: Gender, Obese,
 Smoking.Status, Alcohol.Consumption, Treatment, Rec, and Mult</p>
@@ -1564,7 +1571,8 @@ only 34.6%</p>
 <span><span class="co"># bar graph</span></span>
 <span><span class="fu">barplot</span><span class="op">(</span><span class="va">counts</span>, beside<span class="op">=</span><span class="cn">TRUE</span>, legend<span class="op">=</span><span class="fu">rownames</span><span class="op">(</span><span class="va">counts</span><span class="op">)</span>, col <span class="op">=</span> <span class="fu">c</span><span class="op">(</span><span class="st">'red'</span>,<span class="st">'blue'</span><span class="op">)</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="fig/04-fig1.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><div class="codewrapper sourceCode" id="cb10">
+<figure><img src="fig/04-fig1.png" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><div class="codewrapper sourceCode" id="cb10">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="downlit sourceCode r">
@@ -1581,7 +1589,8 @@ only 34.6%</p>
 <span>  <span class="fu">ylab</span><span class="op">(</span><span class="st">"proportion"</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu">ggtitle</span><span class="op">(</span><span class="st">"Obesity vs. Recurrence"</span><span class="op">)</span> </span></code></pre>
 </div>
-<figure><img src="fig/04-fig2.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><p>From the charts and table it certainly looks like obesity is
+<figure><img src="fig/04-fig2.png" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><p>From the charts and table it certainly looks like obesity is
 associated with a higher rate of recurrence, so we will test whether
 that is statistically significant.</p>
 </section><section id="statistical-tests-for-categorical-variables"><h2 class="section-heading">Statistical tests for categorical variables<a class="anchor" aria-label="anchor" href="#statistical-tests-for-categorical-variables"></a>
@@ -1732,7 +1741,7 @@ test</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Solution to Challenge 2</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>Answer: 2</p>
 </div>
@@ -1759,7 +1768,7 @@ identify and perform the appropriate statistical test.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Solution to Challenge 3</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb15">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1870,12 +1879,12 @@ will investigate whether there is a statistically-significant difference
 between the distribution of that variable between the two groups. As an
 example, we will test whether male patients in our gallstones study are
 taller than female patients.</p>
-<div id="discussion" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="discussion" class="callout-inner">
-<h3 class="callout-title">Discussion<a class="anchor" aria-label="anchor" href="#discussion"></a>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="discussion">Discussion<a class="anchor" aria-label="anchor" href="#discussion"></a>
 </h3>
 <div class="callout-content">
 <p>See if you can identify other examples where you might use a two
@@ -1894,7 +1903,8 @@ are the two datasets normally-distributed, and are the data paired (that
 is, are there repeated measurements on the same samples)? The figure
 below summarises the choice of statistical test used for each of these
 cases.</p>
-<figure><img src="fig/05-fig1.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><p>The first step is to determine whether the continuous variable in
+<figure><img src="fig/05-fig1.png" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><p>The first step is to determine whether the continuous variable in
 each group is normally distributed. We’ve already learned about the
 <code>shapiro.test</code> function to test for normality, and can use
 that again in this situation.</p>
@@ -1991,12 +2001,12 @@ justified.</p>
 <p>If <strong>equal variance</strong>: Student’s T-test<br>
 If <strong>unequal variance</strong>: Welch’s two-sample T-test<br>
 If <strong>data are paired</strong>: Student’s paired T-test</p>
-<div id="tip" class="callout callout">
+<div id="callout2" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="tip" class="callout-inner">
-<h3 class="callout-title">Tip<a class="anchor" aria-label="anchor" href="#tip"></a>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="tip">Tip<a class="anchor" aria-label="anchor" href="#tip"></a>
 </h3>
 <div class="callout-content">
 <p>The R <code>t.test</code> function combines all three of these tests,
@@ -2016,12 +2026,12 @@ non-normally distributed</p>
 <p>The Mann-Whitney test compares the medians of the two groups rather
 than the means, by considering the data as rank order values rather than
 absolute values.</p>
-<div id="tip-1" class="callout callout">
+<div id="callout3" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="tip-1" class="callout-inner">
-<h3 class="callout-title">Tip<a class="anchor" aria-label="anchor" href="#tip-1"></a>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="tip-1">Tip<a class="anchor" aria-label="anchor" href="#tip-1"></a>
 </h3>
 <div class="callout-content">
 <p>The <code>wilcox.test</code> function in R defaults to unpaired data
@@ -2050,7 +2060,8 @@ an indication of difference between the groups</p>
 <span>     ylab <span class="op">=</span> <span class="st">'Height'</span>,</span>
 <span>     xlab <span class="op">=</span> <span class="st">'Gender'</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="fig/05-fig2.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><p>Visually there certainly appears to be a difference. But is it
+<figure><img src="fig/05-fig2.png" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><p>Visually there certainly appears to be a difference. But is it
 statistically significant?</p>
 <p><em>Step two - is the data normally distributed?</em></p>
 <div class="codewrapper sourceCode" id="cb2">
@@ -2062,7 +2073,8 @@ statistically significant?</p>
 <span><span class="fu">hist</span><span class="op">(</span><span class="va">gallstones</span><span class="op">$</span><span class="va">Height</span><span class="op">[</span><span class="fu">which</span><span class="op">(</span><span class="va">gallstones</span><span class="op">$</span><span class="va">Gender</span> <span class="op">==</span> <span class="st">'M'</span><span class="op">)</span><span class="op">]</span>, main <span class="op">=</span> <span class="st">"Histogram of heights of males"</span>, xlab <span class="op">=</span> <span class="st">""</span><span class="op">)</span></span>
 <span><span class="fu">par</span><span class="op">(</span>mfrow<span class="op">=</span><span class="fu">c</span><span class="op">(</span><span class="fl">1</span>,<span class="fl">1</span><span class="op">)</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="fig/05-fig3.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><p>This doesn’t look very normally-distributed, but we do have
+<figure><img src="fig/05-fig3.png" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><p>This doesn’t look very normally-distributed, but we do have
 relatively few data points. A more convincing way to determine this
 would be with the Shapiro-Wilks test</p>
 <div class="codewrapper sourceCode" id="cb3">
@@ -2418,7 +2430,8 @@ the others, we need to use other tests. As with two-sample testing, the
 appropriate test is determined in large part by whether the data in each
 group is normally distributed, and whether the data is paired, as
 outlined in the figure below.</p>
-<figure><img src="fig/06-fig1.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><div id="challenge-1" class="callout challenge">
+<figure><img src="fig/06-fig1.png" alt="RStudio layout" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><div id="challenge-1" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
@@ -2437,7 +2450,7 @@ distributed</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Solution to Challenge 1</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>We can use the <code>shapiro.test</code> function to test for
 normality - or rather, to test the alternative hypothesis that the data
@@ -2480,7 +2493,8 @@ H<sub>1</sub>: µ<sub>1</sub> ≠ µ<sub>2</sub> OR µ<sub>1</sub> ≠
 <strong>F-test</strong>, and is based around decomposing the total
 variation in the sample into the variability (sum of squares) within
 groups and between groups</p>
-<figure><img src="fig/06-fig2.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure></section><section id="anova-one-way-example"><h2 class="section-heading">ANOVA one-way example<a class="anchor" aria-label="anchor" href="#anova-one-way-example"></a>
+<figure><img src="fig/06-fig2.png" alt="RStudio layout" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure></section><section id="anova-one-way-example"><h2 class="section-heading">ANOVA one-way example<a class="anchor" aria-label="anchor" href="#anova-one-way-example"></a>
 </h2>
 <hr class="half-width">
 <p>In our example dataset, the alcohol consumption field has three
@@ -2569,7 +2583,8 @@ Kruskal-Wallis chi-squared = 0.89142, df = 2, p-value = 0.6404</code></pre>
 <pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu">boxplot</span><span class="op">(</span><span class="va">gallstones</span><span class="op">$</span><span class="va">Weight</span> <span class="op">~</span> <span class="va">gallstones</span><span class="op">$</span><span class="va">Alcohol.Consumption</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="fig/06-fig3.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><p>We can see that with a p-value of 0.64, we reject the alternative
+<figure><img src="fig/06-fig3.png" alt="RStudio layout" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><p>We can see that with a p-value of 0.64, we reject the alternative
 hypothesis and concluded that in this data set, there is no evidence for
 a difference in patient weight associated with their level of alcohol
 consumption. This is consistent with the plot, which doesn’t show any
@@ -2679,7 +2694,7 @@ Does this show a significant difference as you might expect?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Solution to Challenge 2</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb17">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2717,7 +2732,7 @@ Tukey’s test</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Solution to Challenge 3</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb18">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2822,7 +2837,8 @@ whether males and female patients respond differently.</p>
   Male         6      6</code></pre>
 </div>
 <p>This corresponds to this design:</p>
-<figure><img src="fig/06-fig4.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><p>As usual, an early step in studying our data is to visualise it</p>
+<figure><img src="fig/06-fig4.png" alt="RStudio layout" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><p>As usual, an early step in studying our data is to visualise it</p>
 <div class="codewrapper sourceCode" id="cb27">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
@@ -2832,7 +2848,8 @@ whether males and female patients respond differently.</p>
 <span><span class="fu">plot</span><span class="op">(</span><span class="va">Score</span> <span class="op">~</span> <span class="va">Treatment</span> <span class="op">+</span> <span class="va">Gender</span>, data <span class="op">=</span> <span class="va">happiness</span><span class="op">)</span></span>
 <span><span class="fu">par</span><span class="op">(</span>mfrow<span class="op">=</span><span class="fu">c</span><span class="op">(</span><span class="fl">1</span>,<span class="fl">1</span><span class="op">)</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="fig/06-fig5.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><div class="codewrapper sourceCode" id="cb28">
+<figure><img src="fig/06-fig5.png" alt="RStudio layout" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><div class="codewrapper sourceCode" id="cb28">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="downlit sourceCode r">
@@ -2840,7 +2857,8 @@ whether males and female patients respond differently.</p>
 <span><span class="fu">ggplot</span><span class="op">(</span>data <span class="op">=</span> <span class="va">happiness</span>, <span class="fu">aes</span><span class="op">(</span>x <span class="op">=</span> <span class="va">Treatment</span>, y <span class="op">=</span> <span class="va">Score</span>, fill <span class="op">=</span> <span class="va">Gender</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu">geom_boxplot</span><span class="op">(</span>position <span class="op">=</span> <span class="fu">position_dodge</span><span class="op">(</span><span class="op">)</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="fig/06-fig6.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><p>Judging by the boxplots, there appears to be a difference in
+<figure><img src="fig/06-fig6.png" alt="RStudio layout" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><p>Judging by the boxplots, there appears to be a difference in
 happiness score for the different treatment drugs (score higher with
 treatment than placebo). However, the difference is less pronounced
 between the gender groups.</p>
@@ -2859,7 +2877,8 @@ versa</em>. The diagram below shows examples of (left) where both main
 effects have a difference but there is no interaction and (right) where
 there is a strong interaction but little main effect.</li>
 </ul>
-<figure><img src="fig/06-fig7.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><p>Interaction plots can be made in R using the
+<figure><img src="fig/06-fig7.png" alt="RStudio layout" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><p>Interaction plots can be made in R using the
 <code>interaction.plot</code> command. Note the order of factors -
 switching these alters which variable is plotted on the x-axis.</p>
 <div class="codewrapper sourceCode" id="cb29">
@@ -2869,7 +2888,8 @@ switching these alters which variable is plotted on the x-axis.</p>
 <code class="sourceCode R"><span><span class="fu">interaction.plot</span><span class="op">(</span><span class="va">happiness</span><span class="op">$</span><span class="va">Treatment</span>, <span class="va">happiness</span><span class="op">$</span><span class="va">Gender</span>, <span class="va">happiness</span><span class="op">$</span><span class="va">Score</span>,</span>
 <span>                 col<span class="op">=</span><span class="fl">2</span><span class="op">:</span><span class="fl">3</span>, lwd<span class="op">=</span><span class="fl">3</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="fig/06-fig8.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><p>The interaction plot seems to show that there is a strong interaction
+<figure><img src="fig/06-fig8.png" alt="RStudio layout" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><p>The interaction plot seems to show that there is a strong interaction
 effect between Treatment and Gender on happiness score, but to confirm
 that we can fit a two-way ANOVA with an interaction term.</p>
 <div class="codewrapper sourceCode" id="cb30">
@@ -2995,7 +3015,8 @@ plots</p>
 <code class="sourceCode R"><span><span class="fu">par</span><span class="op">(</span>mfrow<span class="op">=</span><span class="fu">c</span><span class="op">(</span><span class="fl">2</span>,<span class="fl">2</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="fu">plot</span><span class="op">(</span><span class="va">result</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="fig/06-fig9.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><div class="section level4">
+<figure><img src="fig/06-fig9.png" alt="RStudio layout" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><div class="section level4">
 <h4 id="characteristics-of-a-well-behaved-residual-vs--fits-plot">Characteristics of a well-behaved residual vs. fits plot<a class="anchor" aria-label="anchor" href="#characteristics-of-a-well-behaved-residual-vs--fits-plot"></a>
 </h4>
 <ol style="list-style-type: decimal">
@@ -3078,7 +3099,7 @@ would mean it should be analysed using a paired data technique?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4">Solution to Challenge 4</h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <p>One option would be that if, rather than testing on 24 individuals
 assigned randomly to placebo/treatment groups, the trial was instead
@@ -3199,7 +3220,7 @@ hypothesis. Can you remember what a type II error is?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Solution to Challenge 1</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>A type II error is a failure to reject the null hypothesis when it is
 false</p>
@@ -3375,7 +3396,7 @@ those with single stones?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Solution to Challenge 2</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>The variables of interest are multiple stones (categorical, 2 groups)
 and recurrence (categorical, 2 groups). The appropriate test is
@@ -3436,7 +3457,7 @@ stones</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Solution to Challenge 3</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>The variables of interest are gallstone recurrence (categorical, 2
 groups) and age (continuous). The appropriate test is therefore either
@@ -3495,7 +3516,7 @@ dissolution?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4">Solution to Challenge 4</h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <p>The variables of interest are alcohol consumption (categorical, 3
 groups) and dissolution time (continuous). The appropriate test is
@@ -3546,7 +3567,7 @@ dissolution?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
   <h4 class="accordion-header" id="headingSolution5">Solution to Challenge 5</h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
 <div class="accordion-body">
 <p>The variables of interest are gender (categorical, 2 groups),
 treatment (categorical, two groups) and dissolution time (continuous).
@@ -3706,8 +3727,8 @@ any links that you are not going to use.
   "url": "https://marklcrowe.github.io/Statistical_Comparisons_using_R/aio.html",
   "identifier": "https://marklcrowe.github.io/Statistical_Comparisons_using_R/aio.html",
   "dateCreated": "2023-08-29",
-  "dateModified": "2024-02-27",
-  "datePublished": "2024-02-27"
+  "dateModified": "2024-03-05",
+  "datePublished": "2024-03-05"
 }
 
   </script><script>

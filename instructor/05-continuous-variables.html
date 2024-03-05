@@ -328,13 +328,12 @@ will investigate whether there is a statistically-significant difference
 between the distribution of that variable between the two groups. As an
 example, we will test whether male patients in our gallstones study are
 taller than female patients.</p>
-<div id="discussion" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="discussion" class="callout-inner">
-<h3 class="callout-title">Discussion<a class="anchor" aria-label="anchor" href="#discussion"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="discussion">Discussion<a class="anchor" aria-label="anchor" href="#discussion"></a></h3>
 <div class="callout-content">
 <p>See if you can identify other examples where you might use a two
 sample groups comparison. Do you have any in your own research?</p>
@@ -351,7 +350,8 @@ are the two datasets normally-distributed, and are the data paired (that
 is, are there repeated measurements on the same samples)? The figure
 below summarises the choice of statistical test used for each of these
 cases.</p>
-<figure><img src="../fig/05-fig1.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><p>The first step is to determine whether the continuous variable in
+<figure><img src="../fig/05-fig1.png" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><p>The first step is to determine whether the continuous variable in
 each group is normally distributed. We’ve already learned about the
 <code>shapiro.test</code> function to test for normality, and can use
 that again in this situation.</p>
@@ -425,13 +425,12 @@ justified.</p>
 </tr></tbody></table><p>If <strong>equal variance</strong>: Student’s T-test<br>
 If <strong>unequal variance</strong>: Welch’s two-sample T-test<br>
 If <strong>data are paired</strong>: Student’s paired T-test</p>
-<div id="tip" class="callout callout">
+<div id="callout2" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="tip" class="callout-inner">
-<h3 class="callout-title">Tip<a class="anchor" aria-label="anchor" href="#tip"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="tip">Tip<a class="anchor" aria-label="anchor" href="#tip"></a></h3>
 <div class="callout-content">
 <p>The R <code>t.test</code> function combines all three of these tests,
 and defaults to Welch’s two-sample T-test. To perform a standard T-test,
@@ -449,13 +448,12 @@ non-normally distributed</p>
 <p>The Mann-Whitney test compares the medians of the two groups rather
 than the means, by considering the data as rank order values rather than
 absolute values.</p>
-<div id="tip-1" class="callout callout">
+<div id="callout3" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="tip-1" class="callout-inner">
-<h3 class="callout-title">Tip<a class="anchor" aria-label="anchor" href="#tip-1"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="tip-1">Tip<a class="anchor" aria-label="anchor" href="#tip-1"></a></h3>
 <div class="callout-content">
 <p>The <code>wilcox.test</code> function in R defaults to unpaired data
 - effectively returning the Mann-Whitney test instead. Carry out a
@@ -482,7 +480,8 @@ an indication of difference between the groups</p>
 <span>     ylab <span class="op">=</span> <span class="st">'Height'</span>,</span>
 <span>     xlab <span class="op">=</span> <span class="st">'Gender'</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="../fig/05-fig2.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><p>Visually there certainly appears to be a difference. But is it
+<figure><img src="../fig/05-fig2.png" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><p>Visually there certainly appears to be a difference. But is it
 statistically significant?</p>
 <p><em>Step two - is the data normally distributed?</em></p>
 <div class="codewrapper sourceCode" id="cb2">
@@ -494,7 +493,8 @@ statistically significant?</p>
 <span><span class="fu">hist</span><span class="op">(</span><span class="va">gallstones</span><span class="op">$</span><span class="va">Height</span><span class="op">[</span><span class="fu">which</span><span class="op">(</span><span class="va">gallstones</span><span class="op">$</span><span class="va">Gender</span> <span class="op">==</span> <span class="st">'M'</span><span class="op">)</span><span class="op">]</span>, main <span class="op">=</span> <span class="st">"Histogram of heights of males"</span>, xlab <span class="op">=</span> <span class="st">""</span><span class="op">)</span></span>
 <span><span class="fu">par</span><span class="op">(</span>mfrow<span class="op">=</span><span class="fu">c</span><span class="op">(</span><span class="fl">1</span>,<span class="fl">1</span><span class="op">)</span><span class="op">)</span></span></code></pre>
 </div>
-<figure><img src="../fig/05-fig3.png" alt="" class="figure mx-auto d-block"><figcaption>RStudio layout</figcaption></figure><p>This doesn’t look very normally-distributed, but we do have
+<figure><img src="../fig/05-fig3.png" class="figure mx-auto d-block"><div class="figcaption">RStudio layout</div>
+</figure><p>This doesn’t look very normally-distributed, but we do have
 relatively few data points. A more convincing way to determine this
 would be with the Shapiro-Wilks test</p>
 <div class="codewrapper sourceCode" id="cb3">
@@ -857,7 +857,7 @@ any links that you are not going to use.
   "identifier": "https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/05-continuous-variables.html",
   "dateCreated": "2023-08-29",
   "dateModified": "2023-11-21",
-  "datePublished": "2024-02-27"
+  "datePublished": "2024-03-05"
 }
 
   </script><script>
