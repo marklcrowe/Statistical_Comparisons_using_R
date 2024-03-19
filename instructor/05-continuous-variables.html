@@ -328,12 +328,13 @@ will investigate whether there is a statistically-significant difference
 between the distribution of that variable between the two groups. As an
 example, we will test whether male patients in our gallstones study are
 taller than female patients.</p>
-<div id="callout1" class="callout">
+<div id="discussion" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="discussion">Discussion<a class="anchor" aria-label="anchor" href="#discussion"></a></h3>
+<div id="discussion" class="callout-inner">
+<h3 class="callout-title">Discussion<a class="anchor" aria-label="anchor" href="#discussion"></a>
+</h3>
 <div class="callout-content">
 <p>See if you can identify other examples where you might use a two
 sample groups comparison. Do you have any in your own research?</p>
@@ -384,7 +385,7 @@ two groups (with and without recurrence) had different BMIs?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Solution to Challenge 1</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>One data set is normally distributed, the other is not, so we choose
 the option for non-normally distributed data - the branch to the right
@@ -425,12 +426,13 @@ justified.</p>
 </tr></tbody></table><p>If <strong>equal variance</strong>: Student’s T-test<br>
 If <strong>unequal variance</strong>: Welch’s two-sample T-test<br>
 If <strong>data are paired</strong>: Student’s paired T-test</p>
-<div id="callout2" class="callout">
+<div id="tip" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="tip">Tip<a class="anchor" aria-label="anchor" href="#tip"></a></h3>
+<div id="tip" class="callout-inner">
+<h3 class="callout-title">Tip<a class="anchor" aria-label="anchor" href="#tip"></a>
+</h3>
 <div class="callout-content">
 <p>The R <code>t.test</code> function combines all three of these tests,
 and defaults to Welch’s two-sample T-test. To perform a standard T-test,
@@ -448,12 +450,13 @@ non-normally distributed</p>
 <p>The Mann-Whitney test compares the medians of the two groups rather
 than the means, by considering the data as rank order values rather than
 absolute values.</p>
-<div id="callout3" class="callout">
+<div id="tip-1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="tip-1">Tip<a class="anchor" aria-label="anchor" href="#tip-1"></a></h3>
+<div id="tip-1" class="callout-inner">
+<h3 class="callout-title">Tip<a class="anchor" aria-label="anchor" href="#tip-1"></a>
+</h3>
 <div class="callout-content">
 <p>The <code>wilcox.test</code> function in R defaults to unpaired data
 - effectively returning the Mann-Whitney test instead. Carry out a
@@ -625,7 +628,7 @@ who do not.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Solution to Challenge 2</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb13">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -834,7 +837,7 @@ any links that you are not going to use.
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.2" class="external-link">sandpaper (0.16.2)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.4" class="external-link">pegboard (0.7.4)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.1" class="external-link">varnish (1.0.1)</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.3" class="external-link">sandpaper (0.16.3)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.4" class="external-link">pegboard (0.7.4)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.1" class="external-link">varnish (1.0.1)</a></p>
 			</div>
 		</footer></div> <!-- / div.container -->
 	<div id="to-top">
@@ -857,7 +860,7 @@ any links that you are not going to use.
   "identifier": "https://marklcrowe.github.io/Statistical_Comparisons_using_R/instructor/05-continuous-variables.html",
   "dateCreated": "2023-08-29",
   "dateModified": "2024-03-12",
-  "datePublished": "2024-03-12"
+  "datePublished": "2024-03-19"
 }
 
   </script><script>
